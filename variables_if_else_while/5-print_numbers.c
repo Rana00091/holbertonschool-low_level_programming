@@ -13,7 +13,7 @@ int main (void)
 	while ( number <= 9 )
 	{
 		printf("%d", number);
-		number++
+		number++;
 	}	
 
 	printf("\n");
