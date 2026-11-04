@@ -6,7 +6,7 @@
  * Return: Alaways 0
  */
 
-int main (void)
+int main(void)
 {
 	char letter = 'a';
 
