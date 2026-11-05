@@ -7,16 +7,16 @@
  */
 int main(void)
 {
-    char text[] = "_putchar";
-    int i = 0;
+	char text[] = "_putchar";
+	int i = 0;
 
-    while (text[i] != '\0')
-    {
-        _putchar(text[i]);
-        i++;
-    }
+	while (text[i] != '\0')
+	{
+		_putchar(text[i]);
+		i++;
+	}
 
-    _putchar('\n');
+	_putchar('\n');
 
-    return (0);
+	return (0);
 }
