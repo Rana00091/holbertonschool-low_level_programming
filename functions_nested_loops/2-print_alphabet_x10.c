@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 
 /**
  * function print alphabatic 10 times
