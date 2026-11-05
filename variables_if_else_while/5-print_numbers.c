@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - print 0-9
+ * main - prints numbers from 0 to 9
  *
- * Return: Alaways 0
+ * Return: Always 0
  */
-
 int main(void)
 {
 	int number = 0;
@@ -14,8 +13,7 @@ int main(void)
 	{
 		printf("%d", number);
 		number++;
-	}	
-
+	}
 	printf("\n");
 
 	return (0);
