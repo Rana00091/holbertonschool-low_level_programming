@@ -2,7 +2,7 @@
 
 /**
  * _islower-check if letter is lowercase
- * @n: starting number
+ * @n: number
  *
  * Return : 1 or 0
  */
