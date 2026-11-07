@@ -1,30 +1,27 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Prints FizzBuzz from 1 to 100
- *
- * Return: Always 0
+ * print_triangle - prints a triangle
+ * @size: size of the triangle
  */
-int main(void)
+void print_triangle(int size)
 {
-	int i;
+	int row, space, hash;
 
-	for (i = 1; i <= 100; i++)
+	if (size <= 0)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz");
-		else if (i % 3 == 0)
-			printf("Fizz");
-		else if (i % 5 == 0)
-			printf("Buzz");
-		else
-			printf("%d", i);
-
-		if (i != 100)
-			printf(" ");
-		else
-			printf("\n");
+		_putchar('\n');
+		return;
 	}
 
-	return (0);
+	for (row = 1; row <= size; row++)
+	{
+		for (space = 0; space < size - row; space++)
+			_putchar(' ');
+
+		for (hash = 0; hash < row; hash++)
+			_putchar('#');
+
+		_putchar('\n');
+	}
 }
