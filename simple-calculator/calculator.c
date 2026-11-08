@@ -54,12 +54,12 @@ int main(void)
 
     while(choice != 0)
     {
-        printf("Choose number from list \n 1) Addition. \n 2) Subtraction. \n 3) Multiplication. \n 4) Division. \n 0) Quit.\n");
+        printf("\nChoose number from list \n 1) Addition. \n 2) Subtraction. \n 3) Multiplication. \n 4) Division. \n 0) Quit.\n");
         scanf("%d", &choice);
 
         if(choice == 0)
         {
-            printf("Bye!");
+            printf("Bye!\n");
             break;
         }
 
@@ -79,7 +79,7 @@ int main(void)
                     printf("Enter second digit : ");
                     scanf("%lf", &input2);
                     result = add(input1 , input2);
-                    printf("Result is : %f\n" ,result);
+                    printf("Result is : %.2f\n" ,result);
                     break;
 
                 case 2 : 
@@ -88,7 +88,7 @@ int main(void)
                     printf("Enter second digit : ");
                     scanf("%lf", &input2);
                     result = sub(input1 , input2);
-                    printf("Result is : %f\n" ,result);
+                    printf("Result is : %.2f\n" ,result);
 
                     break;
 
@@ -98,7 +98,7 @@ int main(void)
                     printf("Enter second digit : ");
                     scanf("%lf", &input2);
                     result = mul(input1 , input2);
-                    printf("Result is : %f\n" ,result);
+                    printf("Result is : %.2f\n" ,result);
                     break;
 
                 case 4 : 
@@ -109,7 +109,7 @@ int main(void)
                     if(input2 != 0)
                     {
                         result = div(input1 , input2);
-                        printf("Result is : %f\n" ,result);
+                        printf("Result is : %.2f\n" ,result);
                     }
                     else
                     {
