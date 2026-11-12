@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -10,7 +11,7 @@ void print_rev(char *s)
 	int i;
 	int len;
 	
-	for (len = 0; s[len] !='\0'; len++)
+	for (len = 0; s[len] != '\0'; len++)
 	{
 		rev++;
 	}
