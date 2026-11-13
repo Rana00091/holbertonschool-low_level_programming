@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
  * _strpbrk - searches a string for any byte in accept
  * @s: string to search
