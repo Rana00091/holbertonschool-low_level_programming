@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 
 /**
  * _strncpy - copies a string up to n characters
