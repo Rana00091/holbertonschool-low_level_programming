@@ -36,8 +36,8 @@ int **alloc_grid(int width, int height)
 			}
 			free(two_d_array);
 			return (NULL);
-		}	
-		for(j = 0; j < width; j++)
+		}
+		for (j = 0; j < width; j++)
 		{
 			two_d_array[i][j] = 0;
 		}
