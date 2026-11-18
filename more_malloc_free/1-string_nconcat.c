@@ -47,4 +47,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	concat_array[i] = '\0';
 
 	return (concat_array);
-} 
+}
