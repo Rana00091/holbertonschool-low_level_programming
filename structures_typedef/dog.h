@@ -1,6 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/**
+ * struct dog - Structure representing a dog
+ * @name: The dog's name
+ * @age: The dog's age
+ * @owner: The dog's owner
+ */
 typedef struct dog
 {
 	char *name;
