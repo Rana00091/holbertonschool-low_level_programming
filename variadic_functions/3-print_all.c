@@ -1,11 +1,11 @@
 #include "variadic_functions.h"
+
 /**
-* print_strings - prints a list of strings
-* @separator: string printed between strings
-* @n: number of strings to print
-*
-* Return: Nothing.
-*/
+ * print_all - prints anything based on the format
+ * @format: list of types of arguments
+ *
+ * Return: Nothing.
+ */
 void print_all(const char * const format, ...)
 {
 	va_list args;
